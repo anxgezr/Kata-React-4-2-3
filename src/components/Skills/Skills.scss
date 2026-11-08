@@ -1,0 +1,47 @@
+.skills {
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  width: 100%;
+  min-width: 0;
+
+  &__title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 16px;
+  }
+
+  &__input-row {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+  }
+
+  &__input {
+    flex: 1;
+    min-width: 0;
+  }
+
+  &__add {
+    width: 38px;
+    min-width: 38px;
+    padding: 0;
+    background: #91c7f5;
+
+    &:hover {
+      background: #70b3ec;
+    }
+  }
+
+  &__list {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  &__pill {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+}

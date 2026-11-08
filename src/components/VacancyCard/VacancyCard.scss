@@ -1,0 +1,58 @@
+.vacancy-card {
+  width: 100%;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+
+  &__title {
+    color: #4563ef;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  &__salary {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  &__experience {
+    color: #999999;
+    font-size: 13px;
+  }
+
+  &__company {
+    color: #999999;
+    font-size: 14px;
+    margin: 0 0 8px;
+  }
+
+  &__badge {
+    display: block;
+    width: fit-content;
+    height: auto;
+    padding: 3px 8px;
+    font-size: 11px;
+  }
+
+  &__city {
+    margin: 8px 0 16px;
+    font-size: 14px;
+  }
+
+  &__button {
+    background: #111111;
+    font-size: 13px;
+
+    &:hover {
+      background: #333333;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.search {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &__input {
+    width: 300px;
+  }
+
+  &__button {
+    background: #4563ef;
+
+    &:hover {
+      background: #354fce;
+    }
+  }
+}
